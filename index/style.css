@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:teal;
+    color: white;
+    padding: 2px;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+nav{
+    display: flex;
+   
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    padding: 0px 15px;
+    height: 30px;
+}
+
+/* nav ul{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+} */
+
+nav ul {
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+    font-size: 20px;
+}
+
+nav ul li{
+    padding: 0px 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    
+    color: rgb(208, 240, 32);
+    font-weight: bold;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    padding: 8px 11px;
+}
+
+.search input{
+    height: 28px;
+    width: 25vw;
+    border-radius: 7px;
+    margin: 0px 10px;
+
+}
+
+.search button{
+    font-weight: 900;
+}
+
+.container{
+    min-height: calc(100vh - 50px - 12vh);
+    background-color: rgba(247, 247, 247, 0.83);
+    margin: 0;
+    padding: 0;
+}
+
+.card img{
+    height: 250px;
+    width: 250px;
+}
+
+.card {
+    width: 50vw;
+    margin: auto;
+    padding: 0px 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    overflow: hidden;
+}
+
+.cards{
+    display: flex;
+    justify-content: left;
+    overflow: hidden;
+    background-color: #9ea8a86e;
+    height: 350px;
+}
+
+div.line {
+    width: 200px;
+    margin: 75px 30px;
+    font-size: 15px;
+    padding: 40px;
+}
+
+div.description {
+    width: 800px;
+    padding: 33px 63px;
+    margin: 55px 0;
+    font-size: 20px;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10vw;
+    margin: 0px 19px;
+    font-size: 10px;
+}
+
+.slider{
+    padding: 20px;
+    overflow: hidden;
+    margin: 0px auto;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.slider img{
+    width: 60vw;
+    height: 50vh;
+}
+
+footer{
+    height: 12vh;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+div.view {
+    font-size: 24px;
+    font-size: 36px;
+    font-size: 48px;
+    color: red;
+    margin: 100px 0;
+}
+

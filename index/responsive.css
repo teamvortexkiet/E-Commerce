@@ -1,0 +1,89 @@
+@media screen and (max-width:1000px) {
+   
+ nav{
+     flex-direction: column;
+ }
+
+ .slider{
+     height: 23vh;
+ }
+ ul {
+     flex-direction: column;
+ }
+ .logo{
+     justify-content: center;
+     margin: 12px auto;
+ }
+ nav ul{
+     justify-content: center;
+ }
+}
+
+@media (max-width: 600px) {
+    header{
+        margin-bottom: 20px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        margin-bottom:50px;
+    }
+    .search{
+        display: flex;
+        justify-content: center;
+        padding: 10px 20px;
+        margin-top: 15px;
+        /* margin-bottom: 20px; */
+    }
+    .card {
+        width: auto;
+        margin: auto;
+        padding: 0px 16px;
+        font-family: 'Noto Sans KR', sans-serif;
+        overflow: hidden;
+    }
+    .slider img{
+        width: auto;
+        height: 250px;
+    }
+    .card img{
+        margin: 10px;
+        height: 300px;
+        width: 400px;
+    }
+    .cards {
+        display: block;
+        justify-content: center;
+        background-color: #9ea8a86e;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .card-item{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        margin: 0px 10px;
+        font-size: 10px;
+    }
+    div.line {
+        width: 250px;
+        margin: 5px 5px;
+        font-size: 25px;
+        /* padding-top: 5px; */
+    }
+    div.view {
+        margin: auto 30px;
+        font-size: 48px;
+        color: red;
+        padding-left: 100px;
+        padding-bottom: 30px;
+    }
+    .description {
+        width: auto;
+        display: inline;
+        margin-bottom: 20px;
+        margin: auto;
+        font-size: 20px;
+    }
+  }
